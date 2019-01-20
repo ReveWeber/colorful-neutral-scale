@@ -1,0 +1,7 @@
+/* This is embedded as a string in cns.js; it is here for easy editing */
+
+.cns-color-form {margin: 12px;}
+.cns-color-form label {display: block; line-height: 1.5;}
+.cns-color-form button {margin: 12px 25px;}
+.cns-shade-preview {display: inline-block; position: relative; width: 5.5em; text-align: center;}
+.cns-shade-preview div:first-child {padding: 20px; width: 100%; box-sizing: border-box;}
