@@ -31,7 +31,8 @@ function RGBtoHSL(RGBcolor) {
     if (C !== 0) {
         switch (M) {
             case R:
-                H = ((G-B)/C) % 6;
+                H = ((G-B)/C);
+                if (H < 0) { H = H + 6; }
                 break;
             case G:
                 H = ((B-R)/C) + 2;
